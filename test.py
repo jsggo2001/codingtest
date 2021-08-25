@@ -1,11 +1,8 @@
 from bisect import bisect_left, bisect_right
 
-a = [1,3,5,7,9]
+a = [(1, 5), (2, 4), (3, 3), (4, 2), (5, 1)]
 
-b = 2
+a.sort(key = lambda x : -x[1])
 
-right_index = bisect_right(a, b)
-if a[right_index-1] == b:
-    print(1)
-else:
-    print(0)
+print(a)
+
