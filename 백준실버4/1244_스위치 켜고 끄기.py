@@ -21,7 +21,7 @@ for i in range(m):
     else:
         idx1, idx2 = students[i][1] - 2, students[i][1]
         while True:
-            if idx1 > 0 and idx2 < len(lst):
+            if idx1 > -1 and idx2 < len(lst):
                 if lst[idx1] == lst[idx2]:
                     idx1 = idx1 - 1
                     idx2 = idx2 + 1
@@ -39,4 +39,9 @@ for i in range(m):
             else:
                 lst[l] = 1
 
-print(' '.join(f'{i}' for i in lst))
+for i in range(len(lst)):
+    if i % 20 == 19:
+        print(lst[i], end=' ')
+        print()
+    else:
+        print(lst[i], end=' ')
