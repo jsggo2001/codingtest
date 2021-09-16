@@ -11,3 +11,7 @@ for z, c in zip(a, b):
 l = [1, 2, 3, 4, 5, 6]
 
 print(','.join(f'{i}' for i in l if (i % 3) == 0))
+
+z = [1, 0, 0, 2, 3, 4]
+
+print(z[:-1][::-1])
