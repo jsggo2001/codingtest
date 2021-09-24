@@ -1,6 +1,6 @@
-a = [1,2,3,4,1,6,7,8,9,10]
+a = "12345"
 
-del a[0]
 
-print(a)
+
+print(a.startswith("12"))
 
