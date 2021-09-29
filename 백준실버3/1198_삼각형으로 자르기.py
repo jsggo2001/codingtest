@@ -7,6 +7,8 @@ for i in range(n):
     a, b = list(map(int, input().split()))
     lst.append((a, b))
 
+
+
 comlst = list(combinations(lst, 3))
 ans = 0
 for i in comlst:
