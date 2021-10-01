@@ -11,5 +11,4 @@ def solution(arr):
         answer = [-1]
     return answer
 
-
 print(solution([3, 5, 3, 5, 7, 5, 7]))
