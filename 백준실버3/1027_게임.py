@@ -1,9 +1,7 @@
 while True:
     try:
         x, y = list(map(int, input().split()))
-
         z = (y * 100) // x
-
         if z >= 99:
             print(-1)
         else:
