@@ -1,6 +1,5 @@
 from itertools import combinations
 
-
 def solution(arr, k, t):
     answer = 0
     lst = []
