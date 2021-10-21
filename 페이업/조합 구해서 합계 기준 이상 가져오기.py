@@ -8,7 +8,5 @@ def solution(arr, k, t):
     for i in lst:
         if sum(i) <= t:
             answer += 1
-
     return answer
-
 print(solution([1,1,2,2],2,3))
